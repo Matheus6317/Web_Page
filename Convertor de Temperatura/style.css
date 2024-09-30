@@ -1,0 +1,27 @@
+
+#forma{ 
+    background-color: pink;
+    color: black;
+    border-style: solid;
+    width: 380px;
+    height: auto;
+    text-align: center;
+    border-radius: 27px;
+    margin-left: 50%;
+    font-size: 2em;
+    box-shadow: 15px 15px ;
+
+}
+#convertor{
+    border: none;
+    font-size: 1.02em;
+    border-radius: 15px;
+}
+#entrada{
+    font-size: 25px;
+    height: auto;
+    text-align: center;
+    border: none;
+    border-radius: 27px;
+
+}

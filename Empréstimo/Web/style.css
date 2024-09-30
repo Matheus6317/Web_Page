@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#estrutura{
+    margin: none    ;
+    font-size: 2.2em;
+    border-style: solid;
+    height: 750px;
+    width: 400px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 11%);
+    color: white;    
+    
+}
+#excluido{
+    font-size: 1.0em;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+}
+#emprestimo{
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    background-color: orange;
+}
+#juro{
+    background-color: orange;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+#duracao{
+    background-color: orange;
+    color: white;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+#excluido:hover{
+    background-color: hwb(36 3% 7%);
+}
+#excluido:active{
+    background-color: hwb(36 3% 20%);
+}
+
+
+
+
+

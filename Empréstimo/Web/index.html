@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página da Web</title>
+</head>
+<body>
+    <div id="estrutura">
+        <label>Valor do Empréstimo(R$): </label>
+        <input type="number" min="0" id="emprestimo"><br><br>
+        
+        
+        <label>Juros Anuais(%): </label>
+        <input type="number" min="0" id="juro"><br><br>
+        
+        
+        <label>Duração(anos): </label>
+        <input type="number" min="0" id="duracao"><br><br>
+
+        <input type="button" value="Calcular" onclick="calcular()" id="excluido">
+
+        <p id="mensal"></p>
+        <p id="anual"></p>
+        <p id="total"></p>
+    </div>
+    
+    
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
